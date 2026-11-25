@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Dark Ranger Green Squircle Background -->
+  <rect x="18" y="18" width="476" height="476" rx="108" fill="#263024"/>
+  <rect x="18" y="18" width="476" height="476" rx="108" fill="none" stroke="#B09A7C" stroke-width="6"/>
+  <rect x="32" y="32" width="448" height="448" rx="94" fill="none" stroke="#3A4A37" stroke-width="2"/>
+
+  <!-- Military Heraldic Shield Crest -->
+  <polygon points="256,76 406,116 406,286 256,441 106,286 106,116" fill="#1C241A" stroke="#B09A7C" stroke-width="4"/>
+
+  <!-- Tactical Geospatial Global Grid Lines -->
+  <circle cx="256" cy="256" r="110" fill="none" stroke="#41543E" stroke-width="2"/>
+  <circle cx="256" cy="256" r="70" fill="none" stroke="#41543E" stroke-width="2"/>
+  <ellipse cx="256" cy="256" rx="45" ry="110" fill="none" stroke="#41543E" stroke-width="2"/>
+  <line x1="146" y1="256" x2="366" y2="256" stroke="#41543E" stroke-width="2"/>
+
+  <!-- Precision Cardinal Crosshairs -->
+  <line x1="256" y1="96" x2="256" y2="136" stroke="#B09A7C" stroke-width="4" stroke-linecap="round"/>
+  <line x1="256" y1="376" x2="256" y2="416" stroke="#B09A7C" stroke-width="4" stroke-linecap="round"/>
+  <line x1="116" y1="256" x2="156" y2="256" stroke="#B09A7C" stroke-width="4" stroke-linecap="round"/>
+  <line x1="356" y1="256" x2="396" y2="256" stroke="#B09A7C" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- ATAK Locator Arrowhead (Subdued Desert Tan & Bone) -->
+  <!-- Right Facet (Dark Tan) -->
+  <polygon points="256,166 321,326 256,291" fill="#9E886B"/>
+  <!-- Left Facet (Light Bone) -->
+  <polygon points="256,166 256,291 191,326" fill="#E1D4BE"/>
+  <!-- Crisp Outline -->
+  <polygon points="256,166 321,326 256,291 191,326" fill="none" stroke="#F5EEE1" stroke-width="3"/>
+
+  <!-- Central Precision Target Lock Dot (Crimson Alert) -->
+  <circle cx="256" cy="256" r="7" fill="#E11D48"/>
+  <circle cx="256" cy="256" r="14" fill="none" stroke="#B09A7C" stroke-width="2"/>
+</svg>

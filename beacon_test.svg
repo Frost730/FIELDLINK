@@ -1,0 +1,30 @@
+<svg width="200" height="200" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="52" height="52" fill="#0d1410" />
+  <!-- Grid -->
+  <circle cx="26" cy="26" r="24" stroke="#1f2e24" stroke-width="0.8" />
+  <circle cx="26" cy="26" r="16" stroke="#1f2e24" stroke-width="0.8" />
+
+  <!-- Radar Halo -->
+  <circle cx="26" cy="26" r="20" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.4" stroke-width="0.8" />
+
+  <!-- Directional Group at 35 degrees -->
+  <g transform="rotate(35 26 26)">
+    <!-- FOV Cone -->
+    <path d="M 26 26 L 15 4 A 24 24 0 0 1 37 4 Z" fill="url(#beam-grad)" />
+
+    <!-- Tactical Chevron Arrow -->
+    <path d="M 26 8 L 37 36 L 26 30 L 15 36 Z" fill="#10b981" stroke="#ffffff" stroke-width="1.6" stroke-linejoin="round" />
+
+    <!-- Precision Core -->
+    <circle cx="26" cy="26" r="4.5" fill="#042f1a" stroke="#34d399" stroke-width="1.4" />
+    <circle cx="26" cy="26" r="2" fill="#ffffff" />
+  </g>
+
+  <defs>
+    <radialGradient id="beam-grad" cx="50%" cy="100%" r="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.6" />
+      <stop offset="70%" stop-color="#10b981" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.0" />
+    </radialGradient>
+  </defs>
+</svg>
